@@ -3,7 +3,7 @@ import { useState } from "react";
 import Form from "../components/Form";
 import FadingFrame from "../components/frames/fadingFrame";
 import { Button, Header } from "../components/styled";
-import { FlexBox, SlidingBackground } from "../globalComponents";
+import { FlexBox, Signature, SlidingBackground } from "../globalComponents";
 
 export default function LoginPage({ setLoggedIn }) {
   const horizontal = {
@@ -68,6 +68,9 @@ export default function LoginPage({ setLoggedIn }) {
             />
           )}
         </div>
+        <Signature>
+          by <a href="https://www.linkedin.com/in/hble">Hugo Bler</a>
+        </Signature>
       </FadingFrame>
     </>
   );

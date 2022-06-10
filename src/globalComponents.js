@@ -111,3 +111,26 @@ export const SlidingBackground = styled.div`
   position: absolute;
   z-index: 1;
 `;
+
+export const Signature = styled.div`
+  right: 0;
+  bottom: 0;
+  padding: 0.5rem;
+
+  font-weight: 600;
+
+  position: fixed;
+  z-index: 4;
+
+  border-radius: 5px 0 0 0;
+
+  background-color: #000;
+
+  a {
+    color: #fff;
+
+    :hover {
+      color: var(--highlight);
+    }
+  }
+`;

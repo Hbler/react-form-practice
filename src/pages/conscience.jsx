@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 
 import FadingFrame from "../components/frames/fadingFrame";
-import { FlexBox } from "../globalComponents";
+import { FlexBox, Signature } from "../globalComponents";
 import { Button, Canvas, Info } from "../components/styled";
 import { consciences } from "../data/consciences";
 import { motion } from "framer-motion";
@@ -125,6 +125,9 @@ export default function ConsciencePage() {
         <Link to="/">
           <Button>Back to Reality</Button>
         </Link>
+        <Signature>
+          by <a href="https://www.linkedin.com/in/hble">Hugo Bler</a>
+        </Signature>
       </div>
     </FadingFrame>
   );
