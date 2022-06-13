@@ -18,7 +18,7 @@ export default function Form({
   const [checked, setChecked] = useState(false);
   const history = useHistory();
   const handleChange = (e) => {
-    e.target.checked ? setChecked(true) : setChecked(false);
+    setChecked(!checked);
   };
 
   const formSchema = yup.object().shape({

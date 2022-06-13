@@ -69,7 +69,7 @@ export default function LoginPage({ setLoggedIn }) {
           )}
         </div>
         <Signature>
-          by <a href="https://www.linkedin.com/in/hble">Hugo Bler</a>
+          by <a href="https://www.linkedin.com/in/hbler">Hugo Bler</a>
         </Signature>
       </FadingFrame>
     </>
